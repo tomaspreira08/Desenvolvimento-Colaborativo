@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Colaborativo</title>
+    <style>
+        /* Adicione seus estilos CSS aqui */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header, section, footer {
+            margin: 20px;
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .active {
+            display: block;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#" onclick="showSection('conceito')">Conceito</a>
+        <a href="#" onclick="showSection('ferramentas')">Ferramentas</a>
+        <a href="#" onclick="showSection('vantagens-desafios')">Vantagens e Desafios</a>
+        <a href="#" onclick="showSection('estudos-caso')">Estudos de Caso</a>
+        <a href="#" onclick="showSection('opiniao-final')">Opinião Final</a>
+    </nav>
+
+    <header id="conceito" class="active">
+        <h1>Desenvolvimento Colaborativo: Potencializando Inovação e Eficiência</h1>
+        <p>Explore os fundamentos e benefícios do desenvolvimento colaborativo.</p>
+    </header>
+
+    <section id="conceito">
+        <h2>O Conceito de Desenvolvimento Colaborativo</h2>
+        <p>No âmago do desenvolvimento colaborativo está a ideia de unir mentes e habilidades diversas para criar soluções mais robustas. Isso vai além da simples cooperação, envolvendo a integração de ideias, feedback constante e a quebra de barreiras hierárquicas. A colaboração ocorre em diferentes níveis, desde projetos locais até iniciativas globais, impulsionando a sinergia entre indivíduos, equipes e organizações.</p>
+    </section>
+
+    <!-- Restante do conteúdo ... -->
+
+    <footer>
+        <p>&copy; 2024 Desenvolvimento Colaborativo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Esconde todas as seções
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+
+            // Mostra a seção desejada
+            var selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
