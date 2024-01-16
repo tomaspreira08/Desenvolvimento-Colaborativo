@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.section {
+    display: none;
+    padding-top: 70px;
+}
+
+#apresentacao {
+    display: block;
+}
+
+#apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#apresentacao img {
+    max-width: 40%;
+    border-radius: 40px;
+}
+
+#apresentacao-texto {
+    max-width: 90%;
+}
+
+#projetos, #diplomas-certificados, #linguagens, #contato {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#projetos h2, #diplomas-certificados h2, #linguagens h2, #contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#projetos p, #diplomas-certificados p, #linguagens p, #contato p {
+    font-size: 1.2em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#background-video {
+    position: relative; /* Adiciona posição relativa à seção pai */
+    height: 50vh; /* Define a altura da seção como 100% da altura da viewport */
+}
+
+#background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px; /* Espaçamento interno para melhor legibilidade */
+    max-width: 80%; /* Define a largura máxima do texto */
+}
+
+h2,
+p {
+    margin: 0; /* Remove margens padrão para uma aparência mais limpa */
+}       
+/* Estilos para a barra de navegação */
+.navbar {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    cursor: pointer;
+}
