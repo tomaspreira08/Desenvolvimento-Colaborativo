@@ -156,14 +156,15 @@ p {
 }
 button {
     padding: 10px 20px;
-    background-color: #000000; /* Cor de fundo do botão (pode alterar) */
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 65px; /* Ajuste esta propriedade para alterar a distância para baixo */
 }
 
 button:hover {
-    background-color: #0dbff5; /* Cor de fundo do botão ao passar o mouse (pode alterar) */
+    background-color: #0dbff5;
 }
